@@ -1,0 +1,33 @@
+:root {
+  --drop-shallow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  --drop-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  --new: 19px 16px 15px 0px rgba(0, 0, 0, 0.25);
+  --variable-collection-stroke-1: rgba(213, 219, 226, 1);
+  --variable-collection-color: rgba(25, 127, 198, 1);
+  --variable-collection-line-1: rgba(213, 219, 226, 1);
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(0, 122, 255, 0.15);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-system-colors-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-system-colors-mode="light"] {
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(0, 122, 255, 0.15);
+}
+
+[data-system-colors-mode="dark"] {
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(10, 132, 255, 0.15);
+}
+
+[data-system-colors-mode="dark-elevated"] {
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(10, 132, 255, 0.15);
+}
