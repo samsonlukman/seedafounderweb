@@ -6,6 +6,56 @@
   width: 100%;
 }
 
+a:hover, button:hover {
+  background-color:#197FC6; /* Change background color on hover */
+  color: white;              /* Change text color on hover */
+  cursor: pointer; 
+  border-radius: 20px;         /* Change cursor to pointer */
+}
+/* Optional: Add transition for smoother effect */
+a, button {
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.header-sign-in {
+  background-color: #074173; 
+  width: 100%;
+  border-radius: 20px; 
+  color: white;
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.header-sign-in:hover {
+  background-color: #197FC6; /* Change background color on hover */
+  color: white;              /* Change text color on hover */
+  cursor: pointer; 
+}
+a.get-funding:hover {
+  background-color: #197FC6; /* Change background color on hover */
+  color: white;              /* Change text color on hover */
+  cursor: pointer; 
+}
+a.nav-link:hover {
+  background-color: #197FC6 !important; /* Force the hover color */
+  color: white !important;              /* Ensure text color stays white */
+}
+
+a.navbar-brand:hover {
+  background-color: #197FC6 !important; /* Force the hover color */
+  color: white !important;              /* Ensure text color stays white */
+}
+
+.desktop .CTA:hover {
+  background-color: #197FC6; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.desktop .frame-wrapper:hover {
+  background-color: #197FC6; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
 .desktop .div {
   background-color: #f8f8f8;
   overflow: hidden;
@@ -241,7 +291,7 @@
 }
 
 .desktop .CTA {
-  all: unset;
+  text-decoration: none;
   box-sizing: border-box;
   display: flex;
   height: 48px;
@@ -284,7 +334,7 @@
 }
 
 .desktop .frame-wrapper {
-  all: unset;
+  text-decoration: none;
   box-sizing: border-box;
   height: 48px;
   flex: 1;
@@ -415,7 +465,7 @@
 .desktop .text-wrapper-4 {
   position: relative;
   flex: 1;
-  margin-top: -0.63px;
+  margin-top: 20px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -686,10 +736,33 @@
   position: absolute;
   width: 1116px;
   height: 509px;
-  top: 86px;
+  top: 50px;
   left: 46px;
 }
 
+.desktop .investor-dashboard {
+  position: absolute;
+  width: 1116px;
+  height: 509px;
+  top: 50px;
+  left: 46px;
+}
+
+.desktop .get-funding {
+  background-color: #134a70; /* Set background color */
+  padding-right: 30px;
+  padding-left: 30px;
+   /* Optional padding */
+  border-radius: 8px; /* Optional: rounded corners */
+  position: absolute; /* Absolute positioning */
+  top: 90%; /* Move down 50% from the top */
+  left: 50%; /* Move right 50% from the left */
+  transform: translate(-50%, -50%); /* Center the element */
+  text-align: center; /* Center the text */
+  font-size: xx-large;
+  color: white;
+  text-decoration: none;
+}
 .desktop .text-wrapper-13 {
   top: 0;
   left: 209px;
@@ -1214,7 +1287,7 @@
 }
 
 .desktop .button {
-  all: unset;
+
   box-sizing: border-box;
   height: 68px;
   align-self: stretch;
