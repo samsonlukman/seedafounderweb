@@ -1,17 +1,10 @@
+{% extends 'layout.html' %}
 {% load static %}
+{% block body %}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link href="{% static 'global.css' %}" rel="stylesheet">
-    <link href="{% static 'style.css' %}" rel="stylesheet">
-    <link href="{% static 'styleguide.css' %}" rel="stylesheet">
-  </head>
-  <body>
     <div class="desktop">
       <div class="div">
-        <img class="frame" src="/media/images/frame-197.png" alt="Frame image" />
+        
 
 
         <div class="overlap">
@@ -276,29 +269,37 @@
           <div class="frame-44">
             <div class="frame-45">
               <div class="frame-46">
-                <div class="frame-47"><p class="text-wrapper-27">How does Seed a Founder work</p></div>
+                <div class="frame-47"><p class="text-wrapper-27">How does Seed a Founder work?</p></div>
                 <img class="arrow-down" src="/media/images/arrow-down-3.svg" />
               </div>
+              <span id="how-seed-a-founder-works"> Simply sign up and submit your pitch deck.
+                 Browse through our list of investors and connect with those that
+                  align with your requirements. If an investor expresses interest, 
+                  you can negotiate directly with them, or we can assist
+                   in structuring the deal.</span>
               <img class="vector-2" src="/media/images/vector-31-3.svg" />
             </div>
             <div class="frame-45">
               <div class="frame-46">
-                <div class="frame-47"><p class="text-wrapper-27">How does Seed a Founder work</p></div>
+                <div class="frame-47"><p class="text-wrapper-27">What kind of projects does Seed
+                  a Founder support?
+                </p></div>
                 <img class="arrow-down" src="/media/images/arrow-down-3.svg" />
               </div>
+              Seed a Founder supports a diverse array of projects, ranging from technology startups and social enterprises to sustainable initiatives and innovative ventures spanning various industries. The only criteria are that the founders must be based in Africa.
               <img class="vector-2" src="/media/images/vector-31-3.svg" />
             </div>
             <div class="frame-45">
               <div class="frame-46">
-                <div class="frame-47"><p class="text-wrapper-27">How does Seed a Founder work</p></div>
+                <div class="frame-47"><p class="text-wrapper-27">How do I invest through Seed a Founder?</p></div>
                 <img class="arrow-down" src="/media/images/arrow-down-3.svg" />
               </div>
+              Once your investor profile is complete, you'll gain access to all available projects. From there, you can engage with founders, ask questions, request additional information, and make investments seamlessly.
               <img class="vector-2" src="/media/images/vector-31-3.svg" />
             </div>
             <div class="frame-45">
               <div class="frame-46">
-                <div class="frame-47"><p class="text-wrapper-27">How does Seed a Founder work</p></div>
-                <img class="arrow-down" src="/media/images/arrow-down-3.svg" />
+               
               </div>
               <img class="vector-2" src="/media/images/vector-31-3.svg" />
             </div>
@@ -312,7 +313,7 @@
           <p class="text-wrapper-29">
             If you’re looking to get in touch about PR, sponsorship,  investor relations, you can find us at:
           </p>
-          <div class="text-wrapper-30">contact@seedfounder.com</div>
+          <div class="text-wrapper-30">info@seedafounder.com</div>
           <div class="frame-50">
             <div class="frame-51"><div class="text-wrapper-31">Sign up as Investor</div></div>
             <div class="frame-52">
@@ -338,5 +339,4 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+{% endblock %}

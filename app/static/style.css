@@ -1629,3 +1629,9 @@
   letter-spacing: -1.12px;
   line-height: normal;
 }
+
+@media (min-width: 992px) {
+  .logo-and-icon {
+      margin-left: 200px;
+  }
+}
