@@ -4,7 +4,16 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+
 }
+
+body {
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Make body take full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  overflow-x: scroll;
+}
+
 
 a {
   text-decoration: none;
