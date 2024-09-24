@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover, button:hover {
   background-color:#197FC6; /* Change background color on hover */
   color: white;              /* Change text color on hover */
@@ -425,8 +429,8 @@ a.navbar-brand:hover {
 
 .desktop .image-11 {
   position: absolute;
-  width: 456px;
-  height: 470px;
+  width: 100%;
+  height: 70%;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -467,11 +471,10 @@ a.navbar-brand:hover {
   flex: 1;
   margin-top: 20px;
   font-family: "Poppins", Helvetica;
-  font-weight: 600;
+  font-weight: 200;
   color: #ffffff;
-  font-size: 29.8px;
-  letter-spacing: -1.19px;
-  line-height: 29.8px;
+  font-size: 23.8px;
+  
 }
 
 .desktop .frame-10 {
@@ -738,6 +741,7 @@ a.navbar-brand:hover {
   height: 509px;
   top: 50px;
   left: 46px;
+  opacity: 50%;
 }
 
 .desktop .investor-dashboard {
@@ -960,7 +964,7 @@ a.navbar-brand:hover {
   position: absolute;
   width: 1456px;
   height: 846px;
-  top: 2131px;
+  top: 2150px;
   left: -9px;
   background-color: #2f4b6e;
 }
@@ -1066,7 +1070,7 @@ a.navbar-brand:hover {
 .desktop .frame-31 {
   display: flex;
   flex-direction: column;
-  width: 100px;
+  width: 200px;
   height: 569px;
   align-items: center;
   justify-content: flex-end;
@@ -1562,6 +1566,7 @@ a.navbar-brand:hover {
   width: 1440px;
   height: 497px;
   top: 4676px;
+  margin-top: 20px;
   left: 0;
   background-color: #171717;
 }

@@ -146,9 +146,10 @@
           <a class="get-funding">Get Funding</a>
         </div>
         
+        <a href="{% url 'investor' %}">
         <div class="frame-22">
           <div class="frame-23">
-            <div class="text-wrapper-14">Investors</div>
+            <div id="investors" class="text-wrapper-14">Investors</div>
             <div class="overlap-group-4">
               <div class="image-wrapper"><img class="image-12" src="/media/images/image-54-3.png" /></div>
               <img class="shield-tick" src="/media/images/shield-tick-2.svg" />
@@ -157,8 +158,10 @@
               Connect with visionary founders and entrepreneurs from diverse regions across Africa
             </p>
           </div>
+        </a>
+          <a href="{% url 'founder' %}">
           <div class="frame-24">
-            <div class="text-wrapper-14">Founders</div>
+            <div id="founders" class="text-wrapper-14">Founders</div>
             <div class="overlap-4">
               <div class="image-wrapper"><img class="image-13" src="/media/images/image-54-3.png" /></div>
               <img class="shield-tick-2" src="/media/images/shield-tick-2.svg" />
@@ -167,8 +170,10 @@
               Connect with visionary founders and entrepreneurs from diverse regions across Africa
             </p>
           </div>
+          </a>
+          <a href="{% url 'experts' %}">
           <div class="frame-25">
-            <div class="text-wrapper-14">Experts</div>
+            <div id="experts" class="text-wrapper-14">Experts</div>
             <div class="overlap-5">
               <div class="image-wrapper"><img class="image-14" src="/media/images/image-54-4.png" /></div>
               <img class="shield-tick-3" src="/media/images/shield-tick-2.svg" />
@@ -177,6 +182,7 @@
               Connect with visionary founders and entrepreneurs from diverse regions across Africa
             </p>
           </div>
+          </a>
         </div>
         <div class="frame-26">
           <div class="overlap-6">
@@ -239,7 +245,11 @@
             </div>
             <div class="CTA-wrapper">
               <button class="button">
-                <div class="frame-36"><div class="enter-your-email-3">Subscribe Now</div></div>
+                <div class="frame-36">
+                  <a href="#">
+                  <div class="enter-your-email-3">Subscribe Now</div>
+                </a>
+                </div>
               </button>
             </div>
           </div>
@@ -249,24 +259,32 @@
           <p class="text-wrapper-23">Blog Post : Dive into Insights</p>
           <div class="frame-38">
             <div class="frame-39">
+              <a href="https://blog.seedafounder.com/building-a-strong-business-network-in-africa-strategies-for-2024/">
               <p class="text-wrapper-24">Building a Strong Business Network in Africa: Strategies for 2024</p>
               <div class="img-wrapper"><img class="image-21" src="/media/images/image-55-5.png" /></div>
               <div class="text-wrapper-25">Read more</div>
+              </a>
             </div>
             <div class="frame-40">
-              <p class="text-wrapper-24">Building a Strong Business Network in Africa: Strategies for 2024</p>
+              <a href="https://blog.seedafounder.com/navigating-africas-business-landscape-building-a-powerful-network-in-2024/">
+              <p class="text-wrapper-24">Navigating Africa’s Business Landscape: Building a Powerful Network in 2024</p>
               <div class="img-wrapper"><img class="image-21" src="/media/images/image-55-5.png" /></div>
               <div class="text-wrapper-25">Read more</div>
+              </a>
             </div>
             <div class="frame-41">
-              <p class="text-wrapper-24">Building a Strong Business Network in Africa: Strategies for 2024</p>
+              <a href="https://blog.seedafounder.com/creating-a-pitch-deck-that-gets-funded-insights-for-2024/">
+              <p class="text-wrapper-24">Creating a Pitch Deck That Gets Funded: Insights for 2024</p>
               <div class="img-wrapper"><img class="image-21" src="/media/images/image-55-5.png" /></div>
               <div class="text-wrapper-25">Read more</div>
+              </a>
             </div>
             <div class="frame-42">
-              <p class="text-wrapper-24">Building a Strong Business Network in Africa: Strategies for 2024</p>
+              <a href="https://blog.seedafounder.com/investor-insights-what-makes-a-startup-investment-worthy/">
+              <p class="text-wrapper-24">Investor Insights: What Makes a Startup Investment-Worthy?</p>
               <div class="img-wrapper"><img class="image-21" src="/media/images/image-55-5.png" /></div>
               <div class="text-wrapper-25">Read more</div>
+              </a>
             </div>
           </div>
         </div>
@@ -321,25 +339,56 @@
           </p>
           <div class="text-wrapper-30">info@seedafounder.com</div>
           <div class="frame-50">
-            <div class="frame-51"><div class="text-wrapper-31">Sign up as Investor</div></div>
+            <a href="https://www.seedafounder.app/signUp">
+            <div class="frame-51"><div class="text-wrapper-31">Sign up as Investor</div>
+            </a>
+          </div>
             <div class="frame-52">
-              <div class="frame-51"><div class="text-wrapper-31">Sign up as Founder</div></div>
+              <a href="https://www.seedafounder.app/signUp">
+              <div class="frame-51"><div class="text-wrapper-31">Sign up as Founder</div>
+              </a>
+            </div>
               <img class="vector-3" src="/media/images/vector-9.svg" />
             </div>
-            <div class="frame-51"><div class="text-wrapper-31">Sign up as Expert</div></div>
+            <a href="https://www.seedafounder.app/signUp"></a>
+            <div class="frame-51"><div class="text-wrapper-31">Sign up as Expert</div>
+          </a>
+          </div>
           </div>
           <img class="vector-4" src="/media/images/vector-33.svg" />
           <img class="vector-5" src="/media/images/vector-33.svg" />
           <div class="frame-53">
-            <div class="frame-51"><div class="text-wrapper-31">How it works</div></div>
+            <a href="#experts">
+            <div class="frame-51"><div class="text-wrapper-31">How it works</div>
+            </a>
+          </div>
             <div class="frame-52">
-              <div class="frame-51"><div class="text-wrapper-31">Startup Offers</div></div>
+              <a href="founders">
+              <div class="frame-51"><div class="text-wrapper-31">Startup Offers</div>
+            </a>
+            </div>
               <img class="vector-3" src="/media/images/vector-9-1.svg" />
             </div>
-            <div class="frame-51"><div class="text-wrapper-31">Founder</div></div>
-            <div class="frame-51"><div class="text-wrapper-31">Investor</div></div>
-            <div class="frame-51"><div class="text-wrapper-31">Experts</div></div>
-            <div class="frame-51"><div class="text-wrapper-31">Resources</div></div>
+            <div class="frame-51">
+              <a href="{% url 'founder' %}">
+              <div class="text-wrapper-31">Founder</div>
+              </a>
+            </div>
+            <div class="frame-51">
+              <a href="{% url 'investor' %}">
+              <div class="text-wrapper-31">Investor</div>
+            </a>
+            </div>
+            <div class="frame-51">
+              <a href="{% url 'experts' %}">
+              <div class="text-wrapper-31">Experts</div>
+              </a>
+            </div>
+            <div class="frame-51">
+              <a href="#">
+              <div class="text-wrapper-31">Resources</div>
+            </a>
+            </div>
           </div>
           <p class="text-wrapper-32">© Copyright 2024 Seed A Founder Incorporated. All rights reserved.</p>
         </div>
